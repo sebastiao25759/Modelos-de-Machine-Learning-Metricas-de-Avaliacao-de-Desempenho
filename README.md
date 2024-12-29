@@ -1,4 +1,3 @@
-
 # TensorFlow MNIST Model Training and Evaluation
 
 Este repositório contém um script em Python que utiliza o TensorFlow para construir, treinar e avaliar um modelo de rede neural convolucional (CNN) no dataset MNIST de dígitos manuscritos. Ele inclui visualizações de desempenho do modelo e métricas detalhadas de avaliação.
@@ -27,7 +26,8 @@ Certifique-se de ter o Python instalado, junto com as bibliotecas abaixo:
 - `sklearn`
 
 ## Uso
-Instale as dependências necessárias:
+
+1. Instale as dependências necessárias:
    ```bash
    pip install tensorflow matplotlib seaborn numpy pandas scikit-learn
    ```
@@ -45,19 +45,16 @@ O script gera:
 
 ## Exemplos
 
+### Matriz de Confusão
+A matriz de confusão será gerada como:
+
+![Confusion Matrix Example](exemplo1.png)
+
 ### Tabela de Métricas
 Uma tabela como esta será exibida:
 
-| Métrica      | Valor |
-|--------------|-------|
-| Sensitivity  | 0.99  |
-| Specificity  | 0.98  |
-| Precision    | 0.97  |
-| Accuracy     | 0.98  |
-| F1 Score     | 0.98  |
+![Tabela](exemplo2.png)
 
+### Curva de ROC
+![Tabela](exemplo3.png)
 ---
-
-Sinta-se à vontade para contribuir com melhorias ou sugestões!
-
-```
